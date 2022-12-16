@@ -2,7 +2,7 @@ import MySQLdb
 #import mysql.connector
 def connectDB():
     connection = MySQLdb.connect(
-                #    #host = 'sanfona.myvnc.com',
+                #    host = 'sanfona.myvnc.com',
                     host='192.168.1.6',
                     user = 'julio',
                     passwd = 'j301052')  # create the connection
